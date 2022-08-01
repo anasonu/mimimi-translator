@@ -50,6 +50,7 @@ h2 {
 
 .text-container {
   width: 80%;
+  height: 210px;
   background-color: #FFFFFF;
   box-shadow: 0 6px 10px 0 #e1e1e1;
   border-radius: 8px;
