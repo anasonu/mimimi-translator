@@ -80,3 +80,25 @@ h2 {
     }
 }
 
+.textbox-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #dc3444;
+  border: none;
+  border-radius: 2px;
+  width: 40px;
+  height: 24px;
+}
+
+.delete-btn:hover {
+  background-color: #991d2a;
+  cursor: pointer;
+}
+
+.delete-btn:active {
+  background-color: #dc3444;
+}
