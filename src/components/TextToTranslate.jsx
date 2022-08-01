@@ -4,8 +4,8 @@ import TrashIcon from "./TrashIcon";
 function TextToTranslate({ content, setContent }) {
   const handleContentChange = (e) => setContent(e.target.value);
   const handleDelete = () => {
-    setContent("")
-  }
+    setContent("");
+  };
 
   return (
     <div className="translator-container text-container">

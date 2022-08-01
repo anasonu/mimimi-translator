@@ -102,3 +102,32 @@ h2 {
 .delete-btn:active {
   background-color: #dc3444;
 }
+
+.copy-btn {
+  background-color: #396afc;
+  border: none;
+  border-radius: 2px;
+  width: 40px;
+  height: 24px;
+}
+
+.copy-btn:hover {
+  background-color: #1e45bb;
+  cursor: pointer;
+}
+
+.copy-btn:active {
+  background-color: #396afc;
+}
+
+.copy-success-container {
+  display: flex;
+  justify-content: center;
+}
+
+.copy-success-text {
+  margin-top: 32px;
+  width: fit-content;
+  padding: 8px 24px;
+  border-radius: 6px;
+}
